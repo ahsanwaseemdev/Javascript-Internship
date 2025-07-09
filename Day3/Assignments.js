@@ -53,45 +53,4 @@ if (countrylanguage=="English" || countrylanguage=="english" && countrypopulatio
 }
 
 
-
-//LECTURE: The switch Statement
-
-let language=prompt("Enter Language")
-
-switch (language) {
-    case "chinese":
-    case "mandarin":
-               console.log("MOST number of native speakers!")
-        break;
-
-    case "spanish":
-               console.log("2nd place in number of native speakers")
-        break;    
-
-    case "english":
-               console.log("3rd place")
-        break; 
-
-        case "hindi":
-               console.log("Number 4")
-        break; 
-
-        case "arabic":
-               console.log("5th most spoken language")
-        break; 
-        
-
-    default:
-        console.log("I dont Know about this")
-        break;
-}
-
-
-
-//LECTURE: The Conditional (Ternary) Operator
-
-const country='pakistan'
-const countyrpopulation=22
-console.log(`${country}'s Population ${countyrpopulation>33? 'above':'below'} average`)
-
 */
