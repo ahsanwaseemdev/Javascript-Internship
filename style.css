@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  width: 1300px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: black;
+}
+.upperdiv {
+  display: flex;
+  align-content: center;
+  column-gap: 15px;
+  align-items: center;
+  padding: 20px;
+  background-color: brown;
+  border-radius: 10px;
+}
+.Between {
+  font-size: 20px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+.again {
+  text-align: left;
+  width: 20%;
+}
+.againbtn {
+  font-size: 30px;
+  padding: 5px;
+  width: 100%;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 10px;
+}
+.guessheaddiv {
+  width: 60%;
+
+  text-align: center;
+}
+.Betweendiv {
+  width: 20%;
+}
+.guesshead {
+  color: black;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 10px;
+  background-color: goldenrod;
+  padding: 20px;
+}
+/* Middle Div */
+.middlediv {
+  background-color: brown;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  margin-top: 10px;
+}
+.middledivleft {
+  width: 30%;
+
+  height: 100%;
+  text-align: center;
+  border-right: 6px solid rgb(0, 0, 0);
+}
+.inputdiv {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+.input {
+  font-size: 55px;
+  width: 80px;
+  height: 50px;
+}
+.checkbtn {
+  width: 150px;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+  font-style: oblique;
+}
+/* middle div Right Part*/
+.middledivright {
+  padding-top: 200px;
+  width: 70%;
+  color: aliceblue;
+
+  margin-right: 50px;
+  padding-right: 50px;
+}
+.scorediv {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.score {
+  margin-top: 8px;
+  margin-left: 200px;
+}
+.mainscore {
+  margin-top: 16px;
+}
+.Highscorediv {
+  display: flex;
+  margin-left: 100px;
+}
+.Highscore {
+  margin-top: 16px;
+}
+.Highscorehead {
+  margin-top: 8px;
+  margin-left: 100px;
+}
