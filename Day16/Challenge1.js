@@ -36,3 +36,4 @@ document
   .querySelector("#Select")
   .addEventListener("click", poll.registerNewAnswer.bind(poll));
 */
+
